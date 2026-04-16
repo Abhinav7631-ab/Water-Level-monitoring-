@@ -24,3 +24,21 @@ This project is a water level monitoring and automatic pump control system using
 - Home water tanks
 - Agricultural irrigation
 - Industrial water systems
+
+## 🔌 Wiring Connections
+
+### 1. HC-SR04 Ultrasonic Sensor
+| HC-SR04 Pin | ESP8266 (NodeMCU) Pin |
+| :--- | :--- |
+| VCC | Vin (5V) |
+| GND | GND |
+| Trig | D7 (GPIO 14) |
+| Echo | D8 (GPIO 12) |
+
+### 2. I2C LCD Display
+| I2C Module Pin | ESP8266 (NodeMCU) Pin |
+| :--- | :--- |
+| VCC | Vin (5V) |
+| GND | GND |
+| SDA | D2 (GPIO 4) |
+| SCL | D1 (GPIO 5) |
